@@ -12,4 +12,7 @@ Cada ementa poderá tratar de um ou mais tipos específicos de alteração. Há 
 Uma publicação típica é composta de parágrafos de texto não estruturado aos quais chamamos de ementas. Cada ementa irá tratar sobre um ou mais registros, um ou mais processos e uma ou mais empresas. Também poderá ser sobre retificação de uma ementa publicada anteriormente.
 
 Cada ementa poderá tratar de um ou mais tipos específicos de alteração. Toda ementa deve ter um ou mais tipos associados. Caso não haja, deverá ser gerado um aviso a ser tratado no log (arquivo de erros não críticos que precisam ser tratados pós processamento da DAG) e um aviso de warning (mensagem de texto que irá alertar o responsável por qualidade de dados).
+
+A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e os dados são extraídos necessariamente do site do Diário Oficial da União.
 #
+## 3 - Desenho da arquitetura
