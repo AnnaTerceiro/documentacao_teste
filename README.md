@@ -16,3 +16,10 @@ Cada ementa poderá tratar de um ou mais tipos específicos de alteração. Toda
 A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e os dados são extraídos necessariamente do site do Diário Oficial da União.
 #
 ## 3 - Desenho da arquitetura
+#
+## 4 - Descrição da arquitetura
+#
+## 5 - Dicionário dos dados
+###
+| Nome  | Tipo |
+
