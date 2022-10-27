@@ -20,7 +20,7 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 ## 4 - Descrição da arquitetura
 #
 ## 5 - Dicionário dos dados
-### dbo.xDouAlt
+### #0969DA dbo.xDouAlt
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
