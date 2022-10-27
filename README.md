@@ -20,6 +20,22 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 ## 4 - Descrição da arquitetura
 #
 ## 5 - Dicionário dos dados
-###
+### dbo.xDouAlt
 | Nome  | Tipo |
-
+|-------|------|
+| IdBRAlt  | int |
+| Ato | int |
+| DAto | date |
+| SeqAto | int |
+| DDou | datetime |
+| Ementa | varchar(MAX) |
+| DescAto | varchar(100) |
+| DtAtu | datetime |
+| IdTipAlt | int |
+| LinkGov | varchar(MAX) |
+### dbo.xDouAlt_CNPJ
+| Nome  | Tipo |
+|-------|------|
+| IdBRAlt  | int |
+| CNPJ  | varchar(50) |
+| DtAtu  | datetime |
