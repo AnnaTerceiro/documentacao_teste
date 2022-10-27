@@ -20,7 +20,7 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 ## 4 - Descrição da arquitetura
 #
 ## 5 - Dicionário dos dados
-### $\colorbox{green}{{\color{white}{dbo.xDouAlt}}}$
+### $\color{white} \colorbox{Green} {dbo.xDouAlt} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
@@ -33,23 +33,23 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | DtAtu | datetime |
 | IdTipAlt | int |
 | LinkGov | varchar(MAX) |
-#
-### $\colorbox{green}{{\color{white}{dbo.xDouAlt_CNPJ}}}$
+
+### $\color{white} \colorbox{Green} {dbo.xDouAlt_CNPJ} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | CNPJ  | varchar(50) |
 | DtAtu  | datetime |
-#
-### $\colorbox{green}{{\color{white}{dbo.xDouAlt_Processo}}}$
+
+### $colorbox{red}{{\color{white}{dbo.xDouAlt_Processo}}}$
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | Processo_Mapa | varchar(25) |
 | DtAtu | datetime |
 | iPrincipal | int |
-#
-### $\colorbox{green}{{\color{white}{dbo.xDouAlt_Registro}}}$
+
+### $colorbox{orange}{{\color{white}{dbo.xDouAlt_Registro}}}$
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
