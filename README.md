@@ -34,14 +34,14 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | IdTipAlt | int |
 | LinkGov | varchar(MAX) |
 
-### $\color{white} \colorbox{Green} {dbo.xDouAlt_CNPJ} $
+### $\color{white} \colorbox{Green} {dbo.xDouAlt CNPJ} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | CNPJ  | varchar(50) |
 | DtAtu  | datetime |
 
-### $colorbox{red}{{\color{white}{dbo.xDouAlt_Processo}}}$
+### $\color{white} \colorbox{Green} {dbo.xDouAlt Processo} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
@@ -49,11 +49,11 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | DtAtu | datetime |
 | iPrincipal | int |
 
-### $colorbox{orange}{{\color{white}{dbo.xDouAlt_Registro}}}$
+### $\color{white} \colorbox{Green} {dbo.xDouAlt Registro} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | Registro | varchar(10) |
 | DtAtu | datetime |
 | RET | int |
-#
+
