@@ -39,3 +39,18 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | IdBRAlt  | int |
 | CNPJ  | varchar(50) |
 | DtAtu  | datetime |
+### dbo.xDouAlt_Processo
+| Nome  | Tipo |
+|-------|------|
+| IdBRAlt  | int |
+| Processo_Mapa | varchar(25) |
+| DtAtu | datetime |
+| iPrincipal | int |
+### dbo.xDouAlt_Registro
+| Nome  | Tipo |
+|-------|------|
+| IdBRAlt  | int |
+| Registro | varchar(10) |
+| DtAtu | datetime |
+| RET | int |
+#
