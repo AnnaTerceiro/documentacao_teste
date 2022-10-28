@@ -20,7 +20,7 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 ## 4 - Descrição da arquitetura
 #
 ## 5 - Dicionário dos dados
-### $\color{white} \colorbox{Green} {dbo.xDouAlt} $
+### $\color{white} \colorbox{Red} {dbo.xDouAlt} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
@@ -34,14 +34,14 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | IdTipAlt | int |
 | LinkGov | varchar(MAX) |
 
-### $\color{white} \colorbox{Green} {dbo.xDouAlt CNPJ} $
+### $\color{white} \colorbox{Red} {dbo.xDouAlt CNPJ} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | CNPJ  | varchar(50) |
 | DtAtu  | datetime |
 
-### $\color{white} \colorbox{Green} {dbo.xDouAlt Processo} $
+### $\color{white} \colorbox{Red} {dbo.xDouAlt Processo} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
@@ -49,11 +49,13 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | DtAtu | datetime |
 | iPrincipal | int |
 
-### $\color{white} \colorbox{Green} {dbo.xDouAlt Registro} $
+### $\color{white} \colorbox{Red} {dbo.xDouAlt Registro} $
 | Nome  | Tipo |
 |-------|------|
 | IdBRAlt  | int |
 | Registro | varchar(10) |
 | DtAtu | datetime |
 | RET | int |
+#
+### 6 - Visão relações tabelas fato e dimensão
 
