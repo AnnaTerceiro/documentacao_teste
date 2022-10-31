@@ -58,4 +58,4 @@ A captura dos dados deve acontecer em modelo de ‘webscrapping’ com Python e 
 | RET | int |
 #
 ### 6 - Visão relações tabelas fato e dimensão
-
+![Captura de tela 2022-04-01 171459](https://github.com/AnnaTerceiro/documentacao_teste/issues/1#issue-1430506832)
