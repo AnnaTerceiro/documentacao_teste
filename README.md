@@ -1,6 +1,5 @@
 # Fluxo Diário Oficial de Alterações - FDO_ALT
 # Sumário
-#
 ## 1 - Resumo do projeto
 Captura e estrutura dados de alterações de registro e pós-registro publicadas no Diário Oficial.
 
